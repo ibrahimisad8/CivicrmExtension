@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/ccorpmembers</path>
+    <page_callback>CRM_Members_Page_CcorpMembers</page_callback>
+    <title>CcorpMembers</title>
+    <access_arguments>access CiviCRM</access_arguments>
+    <access_arguments>administer CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/task2form</path>
+    <page_callback>CRM_Members_Form_Task2Form</page_callback>
+    <title>Task2Form</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>

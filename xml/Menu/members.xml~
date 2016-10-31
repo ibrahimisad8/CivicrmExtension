@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/ccorpmembers</path>
+    <page_callback>CRM_Members_Page_CcorpMembers</page_callback>
+    <title>CcorpMembers</title>
+    <access_arguments>administer CiviCRM</access_arguments>
+  </item>
+</menu>
